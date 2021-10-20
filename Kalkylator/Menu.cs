@@ -17,8 +17,7 @@ namespace Kalkylator
             {
                 bool invalidInput = false;
                 do
-                {
-                    Console.WriteLine("Ok! Let's do this...");
+                {                    
                     Console.WriteLine("Press 1 for Addition");
                     Console.WriteLine("Press 2 for Subtraction");
                     Console.WriteLine("Press 3 for Multiplication");
@@ -68,10 +67,10 @@ namespace Kalkylator
                     default:
                         Console.WriteLine("Wrong input, try again..");
                         break;
-
                 }
 
                 Console.WriteLine("The result is " + sum);
+                Startmenu.RunProgram();
 
             } while (menu != 0);
 
