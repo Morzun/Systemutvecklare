@@ -9,13 +9,13 @@ namespace Kalkylator
     class Calculations
     {
         public static List<string> calcList = new List<string>();
+
         public static double Add(double num1, double num2)
         {
             char testOp = '+';
             double sum = (num1 + num2);
             AddList(num1, num2, testOp, sum);
             return sum;
-
         }
 
         public static double Subtract(double num1, double num2)
