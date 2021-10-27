@@ -71,6 +71,10 @@ namespace Kalkylator
 
                 Console.WriteLine("The result is " + sum);
                 Startmenu.RunProgram();
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
             } while (menu != 0);
 
